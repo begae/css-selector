@@ -1,0 +1,15 @@
+/* 자손 선택자 - div 안에 있는 모든 p 선택 */
+.section1 p {
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* 자식 선택자 - 직속 자식만 선택 */
+.section2 > p {
+  color: blue;
+}
+
+section > p {
+  color: orange;
+}
