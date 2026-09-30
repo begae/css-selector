@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>별표 선택자</title>
+    <style>
+      /* 모두 선택자 */
+      * {
+        /* CSS를 초기화한다고 표현 */
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /* border-box 마진과 패딩 사이에 위치 */
+      }
+      h1 {
+        border: 2px solid red;
+      }
+      .box * {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>안녕하세요</h1>
+    <p>반갑습니다.</p>
+    <div>풀스택 수업입니다.</div>
+    <ul>
+      <li>메뉴</li>
+      <li>메뉴</li>
+      <li>메뉴</li>
+      <li>메뉴</li>
+    </ul>
+    <div class="box">
+      <h1>안녕하세요</h1>
+      <p>반갑습니다.</p>
+      <div>풀스택 수업입니다.</div>
+    </div>
+  </body>
+</html>
