@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS 우선순위</title>
+    <style>
+      * {
+        color: blue;
+      }
+      p {
+        color: brown;
+      }
+      .text {
+        color: red;
+      }
+      #title {
+        color: pink;
+      }
+      .text {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="title" class="text">안녕하세요</p>
+    <p class="text">반갑습니다.</p>
+  </body>
+</html>
